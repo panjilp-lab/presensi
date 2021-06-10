@@ -19,6 +19,18 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 // scss-docs-end gray-color-variables
 
+// scss untuk warna orange
+$orange-100: #ffe5d0 !default;
+$orange-200: #fecba1 !default;
+$orange-300: #feb272 !default;
+$orange-400: #fd9843 !default;
+$orange-500: #fd7e14 !default;
+$orange-600: #ca6510 !default;
+$orange-700: #984c0c !default;
+$orange-800: #653208 !default;
+$orange-900: #331904 !default;
+// scss akhir untuk warna orange
+
 // fusv-disable
 // scss-docs-start gray-colors-map
 $grays: (
@@ -34,6 +46,20 @@ $grays: (
 ) !default;
 // scss-docs-end gray-colors-map
 // fusv-enable
+
+// color-map warna orange
+$oranges: (
+  "100": $orange-100,
+  "200": $orange-200,
+  "300": $orange-300,
+  "400": $orange-400,
+  "500": $orange-500,
+  "600": $orange-600,
+  "700": $orange-700,
+  "800": $orange-800,
+  "900": $orange-900
+) !default;
+// akhir color-map warna orange
 
 // scss-docs-start color-variables
 $blue:    #dc22b6 !default;
@@ -68,7 +94,7 @@ $colors: (
 
 // scss-docs-start theme-color-variables
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     $purple !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
