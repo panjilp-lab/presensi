@@ -192,3 +192,7 @@
   vertical-align: middle;
   font-size: 0.875rem;
 }
+
+.rounded-15 {
+  border-radius: 15px;
+}
